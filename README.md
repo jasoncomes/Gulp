@@ -2,8 +2,6 @@
 
 ## **Main**
 
----
-
 ### **`gulp` or `gulp build` or `gulp build:assets`**
 
 Build a assets directory.
@@ -49,8 +47,6 @@ Deletes `assets` directories.
 
 ## **Jekyll**
 
----
-
 ### **`gulp build:jekyll`**
 
 Runs the Jekyll build command.
@@ -60,8 +56,6 @@ Runs the Jekyll build command.
 Deletes Jekyll build `_site` directory.
 
 ## **Styles**
-
----
 
 ### **`gulp build:styles`**
 
@@ -90,8 +84,6 @@ For vendor or plain css, add to the `_assets/styles/standalone` directory. Thi
 Deletes all processed site styles.
 
 ## **Scripts**
-
----
 
 ### **`gulp build:scripts`**
 
@@ -124,8 +116,6 @@ Deletes all processed scripts.
 
 ## **Images**
 
----
-
 ### **`gulp build:images`**
 
 Builds and optimizes all site images/files.
@@ -153,8 +143,6 @@ Optimizes media and theme specific images/files.
 Deletes all processed images.
 
 ## **Fonts**
-
----
 
 ### **`gulp build:fonts`**
 
