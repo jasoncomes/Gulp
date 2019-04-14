@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "script"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+    {
+      "arrowParens": "always",
+      "trailingComma": "es5",
+      "bracketSpacing": true
+    }
+    ]
+  }
+}
