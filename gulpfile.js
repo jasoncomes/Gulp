@@ -176,10 +176,9 @@ gulp.task("build:scripts:main", () => {
 
     if (dir === "footer") {
       scripts = [
-        _npm_dir + "/jquery/dist/jquery.min.js",
-        _npm_dir + "/lazysizes/lazysizes.min.js",
-        _npm_dir + "/lazysizes/plugins/unveilhooks/ls.unveilhooks.js",
-        _npm_dir + "/instantsearch.js/dist/instantsearch.min.js",
+        // _npm_dir + "/jquery/dist/jquery.min.js",
+        // _npm_dir + "/lazysizes/lazysizes.min.js",
+        // _npm_dir + "/instantsearch.js/dist/instantsearch.min.js",
       ].concat(scripts);
     }
 
